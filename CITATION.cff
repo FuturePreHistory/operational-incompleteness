@@ -1,24 +1,32 @@
 cff-version: 1.2.0
-title: “Operational Incompleteness”
- message: “If you use or reference this work, please cite the repository.”
- type: software
-authors:
-family-names: “FuturePreHistory”
- given-names: “”
-repository-code: “https://github.com/FuturePreHistory/operational-incompleteness”
-abstract: >
- An observer-relative physicalist framework for understanding
- operational incompleteness, verification bandwidth mismatch,
- and ASI opacity under finite channel capacity and energy constraints.
-keywords:
-operational incompleteness
-verification bandwidth
-ASI opacity
-observer theory
-channel capacity
-physicalist epistemology
-civilization dynamics
-license: MIT
-version: “0.1.0”
-date-released: 2026-05-23
+title: "Operational Incompleteness"
+message: "If you use this work, please cite it as below."
+type: software
 
+authors:
+  - family-names: "FuturePreHistory"
+    given-names: "Archive"
+
+repository-code: "https://github.com/FuturePreHistory/operational-incompleteness"
+
+url: "https://github.com/FuturePreHistory/operational-incompleteness"
+
+abstract: >
+  A physicalist framework for observer-relative incompleteness
+  under finite verification bandwidth, channel capacity,
+  and energy constraints.
+
+keywords:
+  - ASI
+  - operational incompleteness
+  - verification bandwidth
+  - observer-relative opacity
+  - AI interpretability
+  - complexity
+  - shared reality
+
+license: MIT
+
+version: "0.1.0"
+
+date-released: 2026-05-23

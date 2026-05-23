@@ -14,5 +14,5 @@ This archive develops a physicalist framework for observer-relative incompletene
 
 ## Prior publications
 
-- Chinese version: Zhihu column article, published on 2026-01-01.
-- English discussion draft: Orion’s Arm forum thread, published on 2026-01-30.
+- Chinese version:  [Zhihu column article](https://zhuanlan.zhihu.com/p/1990486730671952010), published on 2026-01-01.
+- English discussion draft: [Orion’s Arm forum thread](https://www.orionsarm.com/forum/showthread.php?tid=7059), published on 2026-01-30.

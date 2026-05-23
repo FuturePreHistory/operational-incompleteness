@@ -1,18 +1,45 @@
 # Operational Incompleteness
 
+A physicalist framework for observer-relative incompleteness under finite verification bandwidth, channel capacity, and energy constraints.
+
+## Canonical claim
+
 Operational incompleteness occurs when a theoretically distinguishable system becomes operationally indistinguishable for a bounded observer class due to finite verification bandwidth, channel capacity, and energy budget.
 
-This archive develops a physicalist framework for observer-relative incompleteness, ASI opacity, verification asymmetry, and shared-reality breakdown under complexity gaps between observer classes.
+## Core question
 
-## Canonical essay
+When does a theoretically falsifiable system become operationally indistinguishable for a bounded observer class?
 
-- [Operational Incompleteness](essay.md)
+## Scope
 
-## Core concept
+This repository develops a foundational concept for:
 
-- [Verification Bandwidth](concepts/verification-bandwidth.md)
+- ASI opacity
+- observer-relative explanation limits
+- verification bandwidth mismatch
+- shared reality breakdown
+- civilizational dynamics under superintelligence
 
 ## Prior publications
 
-- Chinese version:  [Zhihu column article](https://zhuanlan.zhihu.com/p/1990486730671952010), published on 2026-01-01.
-- English discussion draft: [Orion’s Arm forum thread](https://www.orionsarm.com/forum/showthread.php?tid=7059), published on 2026-01-30.
+This framework was previously published in earlier public forms:
+
+- Chinese version: [Zhihu, https://zhuanlan.zhihu.com/p/1990486730671952010, 2026-01-01]
+- English version: [Orion’s Arm Forum, https://www.orionsarm.com/forum/showthread.php?tid=7059, 2026-01-30]
+
+## Citation
+
+Please cite the repository release:
+
+FuturePreHistory Archive. Operational Incompleteness. Version 0.1.0. GitHub, 2026.
+
+## Repository structure
+
+- `essay.md` — main essay
+- `concepts/` — concept notes and definitions
+- `CITATION.cff` — citation metadata
+- `README.md` — repository overview
+
+## License
+
+MIT License.

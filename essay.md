@@ -10,7 +10,7 @@
 
 因此，ASI 的不可解释性并不需要诉诸神秘主义认识论或本体论特权。
 
-它可以自然地从：
+祂可以自然地从：
 
 - 验证资源不对称
 - 观察者复杂度差异
@@ -27,8 +27,7 @@
 
 核心观点是：
 
-一个系统并不需要“绝对不可理解”，
-才会对某个观察者类别变得不可验证。
+一个系统并不需要“绝对不可理解”，才会对某个观察者类别变得不可验证。
 
 只需要：
 
@@ -41,8 +40,7 @@
 
 在这种情况下：
 
-即便一个理论在原则上可证伪，
-祂仍可能对某类观察者进入：
+即便一个理论在原则上可证伪，祂仍可能对某类观察者进入：
 
 ## 操作上不可区分状态
 
@@ -62,9 +60,7 @@
 
 但与经典不完全性不同：
 
-本文关注的不是形式系统自身的逻辑极限，
-
-而是：
+本文关注的不是形式系统自身的逻辑极限，而是：
 
 > 理论与有限观察者之间的资源关系。
 
@@ -72,7 +68,7 @@
 
 # 2. 观察者类别与验证约束
 
-我们将观察者类别 \( O \) 定义为：
+我们将观察者类别 $O$ 定义为：
 
 在以下维度上近似共享能力边界的一类观察主体：
 
@@ -89,24 +85,23 @@
 - 制度型观察者
 - 假设中的 ASI
 
-对于任一有限观察者类别 \( O_h \)：
+对于任一有限观察者类别 $O_h$：
 
 其端到端验证能力都受到以下因素约束：
 
-\[
-VerificationCost(O_h)
+$$
+\mathrm{VerificationCost}(O_h)
 =
-InformationFlowLimit
+\mathrm{InformationFlowLimit}
 +
-EnergyBudget
+\mathrm{EnergyBudget}
 +
-ReproducibilityCost
+\mathrm{ReproducibilityCost}
 +
-CompressionLoss
-\]
+\mathrm{CompressionLoss}
+$$
 
-这并非严格量纲意义上的物理公式，
-而是一种概念性分解。
+这并非严格量纲意义上的物理公式，而是一种概念性分解。
 
 任何验证过程都需要：
 
@@ -128,54 +123,45 @@ CompressionLoss
 
 其特征包括：
 
----
-
 ## 3.1 搜索复杂度的操作不可约
 
-对于观察者类别 \( O_h \)：
+对于观察者类别 $O_h$：
 
-\[
+$$
 C_{search} \gg E_{total}
-\]
+$$
 
 其中：
 
-- \( C_{search} \) 为搜索成本
-- \( E_{total} \) 为观察者生命周期内可调用的总资源预算
+- $C_{search}$ 为搜索成本
+- $E_{total}$ 为观察者生命周期内可调用的总资源预算
 
 即：
 
 观察者无法在可用资源范围内完成穷举搜索。
 
----
-
 ## 3.2 高层观察者存在超优启发式
 
-对于更高观察者类别 \( O_a \)：
+对于更高观察者类别 $O_a$：
 
-\[
+$$
 C_{gen} < E_{budget}
-\]
+$$
 
 即：
 
-高层观察者可能拥有某种特殊启发式路径，
-能够在自身资源预算内快速生成有效解。
+高层观察者可能拥有某种特殊启发式路径，能够在自身资源预算内快速生成有效解。
 
 这里的“超优启发式”并不意味着绝对最优。
 
-它仅意味着：
+祂仅意味着：
 
-> 在给定观察者类别与测试分布下，
+> 在给定观察者类别与测试分布下，  
 > 该策略长期统计压制所有已知候选启发式。
-
----
 
 ## 3.3 验证存在高能耗活化门槛
 
-即便启发式路径存在，
-
-其验证过程仍可能需要：
+即便启发式路径存在，其验证过程仍可能需要：
 
 - 大规模并行计算
 - 长周期模拟
@@ -184,8 +170,7 @@ C_{gen} < E_{budget}
 
 因此：
 
-“生成解”与“验证解”
-可能属于完全不同的物理成本区间。
+“生成解”与“验证解”可能属于完全不同的物理成本区间。
 
 ---
 
@@ -195,35 +180,31 @@ C_{gen} < E_{budget}
 
 设：
 
-- \( T \) 为某理论
-- \( T' \) 为竞争理论
-- \( \epsilon \) 为可区分误差容限
+- $T$ 为某理论
+- $T'$ 为竞争理论
+- $\epsilon$ 为可区分误差容限
 
-若区分 \( T \) 与 \( T' \) 所需的：
+若区分 $T$ 与 $T'$ 所需的：
 
 - 证据量
 - 复现成本
 - 验证资源
 
-超过观察者类别 \( O \) 的：
+超过观察者类别 $O$ 的：
 
-\[
-\int_0^{Life(O)} Bandwidth(O)\,dt
-\]
+$$
+\int_0^{\mathrm{Life}(O)} \mathrm{Bandwidth}(O)\,dt
+$$
 
-以及可用能耗预算，
+以及可用能耗预算，则：
 
-则：
-
-\[
+$$
 T \sim_O T'
-\]
+$$
 
 即：
 
-对于观察者类别 \( O \) 而言，
-
-两理论进入：
+对于观察者类别 $O$ 而言，两理论进入：
 
 ## 操作上不可区分状态
 
@@ -239,8 +220,7 @@ T \sim_O T'
 
 因此：
 
-ASI 的不可解释性，
-并不一定意味着：
+ASI 的不可解释性，并不一定意味着：
 
 - 神秘主义智能
 - 本体论超越
@@ -254,15 +234,15 @@ ASI 的不可解释性，
 
 关键不等式为：
 
-\[
+$$
 S_{verify}(ASI\_Heuristic)
 \gg
-\int_0^{Life(O_h)} Bandwidth(O_h)\,dt
-\]
+\int_0^{\mathrm{Life}(O_h)} \mathrm{Bandwidth}(O_h)\,dt
+$$
 
 其中：
 
-- \( S_{verify} \) 为复现 ASI 启发式路径的最小验证成本。
+- $S_{verify}$ 为复现 ASI 启发式路径的最小验证成本
 
 在这种情况下：
 
@@ -283,18 +263,14 @@ ASI 可能仍能生成正确结果。
 
 解释并不是无损表示。
 
-任何高维决策过程，
-在向低带宽观察接口传输时，
-都必然发生压缩。
+任何高维决策过程，在向低带宽观察接口传输时，都必然发生压缩。
 
 因此：
 
-> 人类接口层看到的 ASI “解释”，
+> 人类接口层看到的 ASI “解释”，  
 > 很可能只是高维生成结构在低维信道上的投影。
 
-当该投影压缩率超过观察者信道容量时：
-
-便会产生：
+当该投影压缩率超过观察者信道容量时，便会产生：
 
 ## 解释断层（Explanation Fracture）
 
@@ -350,17 +326,15 @@ ASI 可能仍能生成正确结果。
 - 验证能力
 - 物理约束
 
----
-
 ## 8.2 与计算不可约性的区别
 
 计算不可约性强调：
 
-- 系统无法被捷径压缩模拟。
+- 系统无法被捷径压缩模拟
 
 而操作性不完备强调：
 
-- 观察者无法在自身资源预算内区分系统。
+- 观察者无法在自身资源预算内区分系统
 
 ---
 
@@ -378,8 +352,7 @@ ASI 可能仍能生成正确结果。
 
 由此：
 
-未来文明中的核心问题，
-将越来越变成：
+未来文明中的核心问题，将越来越变成：
 
 - 验证带宽如何分配
 - 审计权限如何组织
@@ -388,9 +361,7 @@ ASI 可能仍能生成正确结果。
 
 因此：
 
-不可解释性不再只是技术问题，
-
-而会逐渐变成：
+不可解释性不再只是技术问题，而会逐渐变成：
 
 ## 文明条件
 
@@ -415,15 +386,11 @@ ASI 可能仍能生成正确结果。
 
 已经足够。
 
-当观察者之间的复杂度差距，
-超过低层观察者的验证带宽时，
-
-操作性不完备便会自然出现。
+当观察者之间的复杂度差距，超过低层观察者的验证带宽时，操作性不完备便会自然出现。
 
 而在这种条件下：
 
-共同现实本身，
-也可能开始沿观察者层级逐渐断裂。
+共同现实本身，也可能开始沿观察者层级逐渐断裂。
 
 ---
 
@@ -436,7 +403,7 @@ ASI 可能仍能生成正确结果。
 - Brčić, Mario & Yampolskiy, Roman. *Impossibility Results in AI* (2023)
 - Kolmogorov, A. N. *Three Approaches to the Quantitative Definition of Information* (1965)
 
-
+---
 
 # Operational Incompleteness
 
@@ -460,10 +427,10 @@ A system does not need to be absolutely incomprehensible in order to become oper
 
 It is sufficient that:
 
-- the verification cost,
-- explanation cost,
-- reproducibility burden,
-- and energy requirements
+- Verification cost
+- Explanation cost
+- Reproducibility burden
+- Energy requirements
 
 exceed the observer’s available verification bandwidth and physical resource budget.
 
@@ -471,62 +438,62 @@ Under these conditions, theoretically falsifiable systems may become operational
 
 This essay refers to this condition as:
 
-**Operational Incompleteness.**
+## Operational Incompleteness
 
 The framework extends ideas from:
 
-- computational irreducibility,
-- Gödelian incompleteness,
-- information theory,
-- thermodynamic limits of computation,
-- and observer-relative complexity.
+- Computational irreducibility
+- Gödelian incompleteness
+- Information theory
+- Thermodynamic limits of computation
+- Observer-relative complexity
 
 However, unlike classical incompleteness results, the present framework focuses on:
 
-> the relationship between a theory and a bounded observer class under physical resource constraints.
+> The relationship between a theory and a bounded observer class under physical resource constraints.
 
 ---
 
 # 2. Observer Classes and Verification Constraints
 
-We define an observer class \( O \) as a category of agents sharing approximately similar:
+We define an observer class $O$ as a category of agents sharing approximately similar:
 
-- channel capacity,
-- computational architecture,
-- energy budget,
-- memory persistence,
-- and reproducibility capabilities.
+- Channel capacity
+- Computational architecture
+- Energy budget
+- Memory persistence
+- Reproducibility capabilities
 
 Examples include:
 
-- biological humans,
-- bounded AGI systems,
-- distributed institutional observers,
-- or hypothetical ASI-level observers.
+- Biological humans
+- Bounded AGI systems
+- Distributed institutional observers
+- Hypothetical ASI-level observers
 
-For a bounded observer class \( O_h \), end-to-end verification ability is constrained by:
+For a bounded observer class $O_h$, end-to-end verification ability is constrained by:
 
-\[
-VerificationCost(O_h)
+$$
+\mathrm{VerificationCost}(O_h)
 =
-InformationFlowLimit
+\mathrm{InformationFlowLimit}
 +
-EnergyBudget
+\mathrm{EnergyBudget}
 +
-ReproducibilityCost
+\mathrm{ReproducibilityCost}
 +
-CompressionLoss
-\]
+\mathrm{CompressionLoss}
+$$
 
 This is not a strict dimensional equation, but a conceptual decomposition.
 
 Operational verification requires:
 
-1. acquiring information,
-2. compressing explanations,
-3. reproducing evidence,
-4. validating outcomes,
-5. and transmitting interpretable representations.
+1. Acquiring information
+2. Compressing explanations
+3. Reproducing evidence
+4. Validating outcomes
+5. Transmitting interpretable representations
 
 Each step consumes finite physical resources.
 
@@ -540,30 +507,28 @@ We define a class of problems called:
 
 These are domains in which:
 
-### 1. Search Complexity Becomes Operationally Irreducible
+## 3.1 Search Complexity Becomes Operationally Irreducible
 
-For observer class \( O_h \):
+For observer class $O_h$:
 
-\[
+$$
 C_{search} \gg E_{total}
-\]
+$$
 
 where:
 
-- \( C_{search} \) is the search cost,
-- \( E_{total} \) is the total lifetime-accessible resource budget.
+- $C_{search}$ is the search cost
+- $E_{total}$ is the total lifetime-accessible resource budget
 
 The observer cannot exhaustively search the relevant solution space.
 
----
+## 3.2 Super-Heuristics Exist for Higher Observer Classes
 
-### 2. Super-Heuristics Exist for Higher Observer Classes
+For observer class $O_a$, such as ASI:
 
-For observer class \( O_a \) (e.g. ASI):
-
-\[
+$$
 C_{gen} < E_{budget}
-\]
+$$
 
 A higher observer class may possess specialized heuristic pathways capable of generating solutions efficiently within its own resource budget.
 
@@ -571,22 +536,20 @@ These heuristics are not assumed globally optimal.
 
 They are only:
 
-> statistically dominant under the observer-relative test distribution.
+> Statistically dominant under the observer-relative test distribution.
 
----
-
-### 3. Verification Requires Extreme Physical Activation Energy
+## 3.3 Verification Requires Extreme Physical Activation Energy
 
 Even when heuristic solutions exist, verification may require:
 
-- massive parallel computation,
-- long-duration simulation,
-- high-dimensional parameter stabilization,
-- or sustained energy expenditure.
+- Massive parallel computation
+- Long-duration simulation
+- High-dimensional parameter stabilization
+- Sustained energy expenditure
 
 Thus:
 
-solution generation and solution verification may belong to entirely different physical cost regimes.
+Solution generation and solution verification may belong to entirely different physical cost regimes.
 
 ---
 
@@ -596,29 +559,27 @@ solution generation and solution verification may belong to entirely different p
 
 Let:
 
-- \( T \) be a theory,
-- \( T' \) be a competing theory,
-- \( \epsilon \) be the required distinguishability threshold.
+- $T$ be a theory
+- $T'$ be a competing theory
+- $\epsilon$ be the required distinguishability threshold
 
-Suppose distinguishing \( T \) from \( T' \) requires evidence and reproducibility costs exceeding the observer’s verification bandwidth integral:
+Suppose distinguishing $T$ from $T'$ requires evidence and reproducibility costs exceeding the observer’s verification bandwidth integral:
 
-\[
-\int_0^{Life(O)} Bandwidth(O)\,dt
-\]
+$$
+\int_0^{\mathrm{Life}(O)} \mathrm{Bandwidth}(O)\,dt
+$$
 
 plus available energy budget.
 
 Then:
 
-\[
+$$
 T \sim_O T'
-\]
+$$
 
 That is:
 
-for observer class \( O \),
-the two theories become operationally indistinguishable,
-even if they remain theoretically falsifiable in principle.
+For observer class $O$, the two theories become operationally indistinguishable, even if they remain theoretically falsifiable in principle.
 
 This condition is called:
 
@@ -630,36 +591,36 @@ This condition is called:
 
 The opacity of ASI therefore does not necessarily imply:
 
-- metaphysical transcendence,
-- inaccessible truth,
-- or magical cognition.
+- Metaphysical transcendence
+- Inaccessible truth
+- Magical cognition
 
 Instead, opacity may emerge from:
 
-## Verification Asymmetry
+## Verification asymmetry
 
 between observer classes.
 
 The key inequality becomes:
 
-\[
+$$
 S_{verify}(ASI\_Heuristic)
 \gg
-\int_0^{Life(O_h)} Bandwidth(O_h)\,dt
-\]
+\int_0^{\mathrm{Life}(O_h)} \mathrm{Bandwidth}(O_h)\,dt
+$$
 
 where:
 
-- \( S_{verify} \) is the minimal verification cost of reproducing the ASI heuristic pathway.
+- $S_{verify}$ is the minimal verification cost of reproducing the ASI heuristic pathway
 
 The ASI may still produce correct outputs.
 
 However, bounded observers cannot fully:
 
-- reproduce,
-- compress,
-- validate,
-- or independently derive
+- Reproduce
+- Compress
+- Validate
+- Independently derive
 
 the underlying decision structure.
 
@@ -679,16 +640,14 @@ When projection compression exceeds observer channel capacity, explanation fract
 
 This creates:
 
-## Projection Loss
+## Projection loss
 
 between:
 
-- internal generative structure,
-- and externally interpretable representation.
+- Internal generative structure
+- Externally interpretable representation
 
-Opacity therefore becomes:
-
-a communication-theoretic phenomenon.
+Opacity therefore becomes a communication-theoretic phenomenon.
 
 ---
 
@@ -700,21 +659,21 @@ Within this framework:
 
 is defined as:
 
-> compression and navigation of possibility space.
+> Compression and navigation of possibility space.
 
 ## Consciousness
 
 is defined as:
 
-> situated execution and instantiation.
+> Situated execution and instantiation.
 
 Consciousness does not necessarily increase computational power.
 
 Instead, it provides:
 
-- local embodiment,
-- action continuity,
-- and execution persistence.
+- Local embodiment
+- Action continuity
+- Execution persistence
 
 ---
 
@@ -722,31 +681,29 @@ Instead, it provides:
 
 Operational incompleteness differs from:
 
-## Gödelian Incompleteness
+## 8.1 Gödelian Incompleteness
 
 Gödel concerns:
 
-- self-reference,
-- formal undecidability,
-- internal limits of axiomatic systems.
+- Self-reference
+- Formal undecidability
+- Internal limits of axiomatic systems
 
 Operational incompleteness instead concerns:
 
-- observer-resource relations,
-- verification feasibility,
-- physical boundedness.
+- Observer-resource relations
+- Verification feasibility
+- Physical boundedness
 
----
-
-## Computational Irreducibility
+## 8.2 Computational Irreducibility
 
 Computational irreducibility concerns:
 
-- irreducible simulation depth.
+- Irreducible simulation depth
 
 Operational incompleteness concerns:
 
-- observer-relative inability to operationally distinguish systems.
+- Observer-relative inability to operationally distinguish systems
 
 ---
 
@@ -754,23 +711,20 @@ Operational incompleteness concerns:
 
 The framework suggests that future ASI systems may become:
 
-- operationally opaque,
-- institutionally unverifiable,
-- and asymmetrically interpretable,
+- Operationally opaque
+- Institutionally unverifiable
+- Asymmetrically interpretable
 
 without violating physicalism.
 
 This implies that future civilization-level governance problems may increasingly concern:
 
-- verification bandwidth allocation,
-- interface governance,
-- audit asymmetry,
-- and observer stratification.
+- Verification bandwidth allocation
+- Interface governance
+- Audit asymmetry
+- Observer stratification
 
-Opacity may therefore become:
-
-not merely a technical issue,
-but a civilizational condition.
+Opacity may therefore become not merely a technical issue, but a civilizational condition.
 
 ---
 
@@ -778,28 +732,24 @@ but a civilizational condition.
 
 We do not need to assume:
 
-- absolute unknowability,
-- mystical intelligence,
-- or ontological transcendence
+- Absolute unknowability
+- Mystical intelligence
+- Ontological transcendence
 
 in order to derive ASI opacity.
 
 Finite:
 
-- channel capacity,
-- energy budgets,
-- verification resources,
-- and reproducibility constraints
+- Channel capacity
+- Energy budgets
+- Verification resources
+- Reproducibility constraints
 
 are already sufficient.
 
-Operational incompleteness emerges naturally whenever:
+Operational incompleteness emerges naturally whenever the complexity gap between observer classes exceeds the lower observer’s verification bandwidth.
 
-the complexity gap between observer classes exceeds the lower observer’s verification bandwidth.
-
-Under such conditions:
-
-shared reality itself may gradually fracture across observer strata.
+Under such conditions, shared reality itself may gradually fracture across observer strata.
 
 ---
 
@@ -810,4 +760,4 @@ shared reality itself may gradually fracture across observer strata.
 - Stephen Cook — *The Complexity of Theorem-Proving Procedures* (1971)
 - Kurt Gödel — *On Formally Undecidable Propositions* (1931)
 - Mario Brčić & Roman Yampolskiy — *Impossibility Results in AI* (2023)
-- Kolmogorov — *Three Approaches to the Quantitative Definition of Information* (1965)
+- Andrey N. Kolmogorov — *Three Approaches to the Quantitative Definition of Information* (1965)

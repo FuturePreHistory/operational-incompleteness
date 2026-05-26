@@ -4,7 +4,14 @@
 
 Verification bandwidth refers to the institutional and technical capacity required for an observer class to access, interpret, challenge, reproduce, and audit a public claim or system output.
 
-It includes information access, interpretability, computational resources, reproducibility capacity, institutional access, and appeal mechanisms.
+It includes:
+
+- Information access
+- Interpretability
+- Computational resources
+- Reproducibility capacity
+- Institutional access
+- Appeal mechanisms
 
 ---
 
@@ -22,12 +29,12 @@ The problem is no longer merely informational inequality, but unequal participat
 
 Verification bandwidth serves as a bridge concept between:
 
-- operational incompleteness
+- Operational incompleteness
 - ASI opacity
-- shared verification structures
-- interface governance
-- reality stratification
-- observer-class asymmetry
+- Shared verification structures
+- Interface governance
+- Reality stratification
+- Observer-class asymmetry
 
 ---
 

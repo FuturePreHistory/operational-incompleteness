@@ -15,17 +15,17 @@ When does a theoretically falsifiable system become operationally indistinguisha
 This repository develops a foundational concept for:
 
 - ASI opacity
-- observer-relative explanation limits
-- verification bandwidth mismatch
-- shared reality breakdown
-- civilizational dynamics under superintelligence
+- Observer-relative explanation limits
+- Verification bandwidth mismatch
+- Shared reality breakdown
+- Civilizational dynamics under superintelligence
 
 ## Prior publications
 
 This framework was previously published in earlier public forms:
 
-- Chinese version: [Zhihu, https://zhuanlan.zhihu.com/p/1990486730671952010, 2026-01-01]
-- English version: [Orion’s Arm Forum, https://www.orionsarm.com/forum/showthread.php?tid=7059, 2026-01-30]
+- Chinese version: [Zhihu](https://zhuanlan.zhihu.com/p/1990486730671952010), 2026-01-01
+- English version: [Orion’s Arm Forum](https://www.orionsarm.com/forum/showthread.php?tid=7059), 2026-01-30
 
 ## Citation
 

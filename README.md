@@ -40,6 +40,7 @@ FuturePreHistory Archive. Operational Incompleteness. Version 0.1.0. GitHub, 202
 - `CITATION.cff` — citation metadata
 - `README.md` — repository overview
 
+
 ## License
 
-MIT License.
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See [LICENSE](LICENSE).
